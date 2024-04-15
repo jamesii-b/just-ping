@@ -4,7 +4,7 @@ import NavBar from "../reusable/navbar";
 import { Element } from "react-scroll";
 import HeroSection from "./components/heroSection";
 
-import OurWorks from "../services/works";
+import OurWorks from "../services/services";
 import Works from "../works/ourworks";
 import AboutUs from "../about/about";
 import HeroCta from '../reusable/HeroCTA'
@@ -13,7 +13,7 @@ import HeroCta from '../reusable/HeroCTA'
 function HomePage() {
 
   return (
-    <div className="min-h-screen">
+    <>
       <NavBar />
       <Element
         name="landing" // unique name for each section
@@ -60,7 +60,7 @@ function HomePage() {
         </section>
       </Element>
       <HeroCta />
-    </div>
+    </>
   );
 }
 

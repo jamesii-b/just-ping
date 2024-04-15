@@ -71,8 +71,8 @@ const ServiceBox = ({ title, description, sub_description, color, icon, path, im
         <h3 className="text-xl md:text-2xl font-semibold">{title}</h3>
       </div>
       <div>
-        <p className="text-xl md:text-xl text-gray-700 mb-4">{description}</p>
-        <p className="text-xl md:text-xl text-gray-700 mb-4">{sub_description}</p>
+        <p className=" text-gray-700 mb-4">{description}</p>
+        <p className=" text-gray-700 mb-4">{sub_description}</p>
         <div className="text-center md:text-left"></div>
       </div>
     </div>

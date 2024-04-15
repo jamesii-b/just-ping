@@ -32,9 +32,16 @@ function HeroSection() {
         className="absolute inset-0 flex flex-col justify-center items-center text-center text-white"
       >
 
-        <h1 className="text-5xl sm:text-6xl lg:text-6xl font-body font-bold  text-white md:mb-5 lg:mb-5 ">
-        SERVING ALL YOUR <br/> TELECOMMUNICATION NEEDS
+        <h1 className="text-3xl sm:text-3xl lg:text-6xl font-body font-bold  text-white md:mb-5 lg:mb-5 ">
+          <span className="block md:span">
+        SERVING ALL YOUR 
+
+          </span>
+          <span className="block md:span">
+          TELECOMMUNICATION NEEDS
+          </span>
         </h1>
+
 
         <p className="text-lg sm:text-xl lg:text-2xl leading-relaxed max-w-3xl mb-8 text-gray-300">
           Carried Out by Licensed Retailer
