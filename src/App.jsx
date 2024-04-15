@@ -10,11 +10,12 @@ export default function App() {
   return (
     <div className="bg-bg_primary text-t_Primary font-body md:text-xl">
       <BrowserRouter>
+      
         {/* <NavBar /> */}
         <ScrollToTop />
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/just-ping" index element={<HomePage />} />
+          <Route path="/just-ping/contact" element={<ContactPage />} />
 
           <Route path="*" element={<NotFound />} />
         </Routes>

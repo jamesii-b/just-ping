@@ -37,7 +37,7 @@ function NavBar() {
           </div>
         </div>
         <div className="hidden lg:block md:block">
-          <Link to="/contact">
+          <Link to="/just-ping/contact">
             <button className="bg-gradient-to-r from-blue-500 to-blue-600 hover:bg-gradient-to-r ease-in-out  hover:from-blue-600 hover:to-blue-700 lg:hover:scale-110 md:hover:scale-105 text-white px-4 py-2 rounded-md">Contact Us</button>
           </Link>
         </div>

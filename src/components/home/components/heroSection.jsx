@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { FaAngleDown } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import actualImage from "/public/hero/webcam.jpeg";
+import actualImage from "/hero/webcam.jpeg";
 import { Link as ScrollLink } from "react-scroll"; // Rename to avoid conflict
 
 function HeroSection() {

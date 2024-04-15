@@ -1,4 +1,8 @@
 import React from 'react';
+import cctvImage from '/images/cctv.png';
+import intercomImage from '/images/intercom.png';
+import tvImage from '/images/tv.png';
+import datapointImage from '/images/datapoint.png';
 
 function OurWorks() {
   return (
@@ -13,19 +17,21 @@ function OurWorks() {
               description="Secure your estate with our High Quality Camera powered by Licensed Retailor"
               sub_description="Our CCTV installations provide peace of mind through high-quality camera technology and professional setup, ensuring your property's security needs are met."
               color=""
+              image={cctvImage}
             />
             <div className="w-0 md:w-8"></div>
-            <img src='/images/cctv.png' className="max-h-96 mx-auto w-fit md:h-auto md:max-h-96 md:w-auto" alt="" />
+            <img src={cctvImage} className="max-h-96 mx-auto w-fit md:h-auto md:max-h-96 md:w-auto" alt="" />
           </div>
           {/* Intercom Installation Box */}
           <div className="flex  flex-col md:flex-row">
-            <img src='/images/intercom.png' className="max-h-96 mx-auto w-fit md:h-auto md:max-h-96 md:w-auto" alt="" />
+            <img src={intercomImage} className="max-h-96 mx-auto w-fit md:h-auto md:max-h-96 md:w-auto" alt="" />
             <div className="w-0 md:w-8"></div>
             <ServiceBox
               title="Intercom Installation"
               description="Streamline communication and enhance security with our expert intercom installations."
               sub_description="Our meticulous attention to detail ensures that every aspect of the user journey is thoughtfully considered and optimized for maximum usability and engagement."
               color=""
+              image={intercomImage}
             />
           </div>
           {/* TV & Antenna Mount Box */}
@@ -35,19 +41,21 @@ function OurWorks() {
               description="Enjoy seamless entertainment with our professional TV and antenna mounting services."
               sub_description="We offer secure and aesthetically pleasing mounting solutions for TVs and antennas, ensuring a clutter-free and immersive viewing experience."
               color=""
+              image={tvImage}
             />
             <div className="w-0 md:w-8"></div>
-            <img src='/images/tv.png' className="max-h-96 mx-auto w-fit md:h-auto md:max-h-96 md:w-auto" alt="" />
+            <img src={tvImage} className="max-h-96 mx-auto w-fit md:h-auto md:max-h-96 md:w-auto" alt="" />
           </div>
           {/* Datapoint Installation Box */}
           <div className="flex  flex-col md:flex-row">
-            <img src='/images/datapoint.png' className="max-h-96 mx-auto w-fit md:h-auto md:max-h-96 md:w-auto" alt="" />
+            <img src={datapointImage} className="max-h-96 mx-auto w-fit md:h-auto md:max-h-96 md:w-auto" alt="" />
             <div className="w-0 md:w-8"></div>
             <ServiceBox
               title="Datapoint Installation"
               description="Optimize your network infrastructure with our reliable datapoint installations."
               sub_description="We provide efficient and secure datapoint installations to enhance connectivity and support your digital needs."
               color=""
+              image={datapointImage}
             />
           </div>
         </div>
@@ -56,7 +64,7 @@ function OurWorks() {
   );
 }
 
-const ServiceBox = ({ title, description, sub_description, color, icon, path }) => {
+const ServiceBox = ({ title, description, sub_description, color, icon, path, image }) => {
   return (
     <div className={`rounded-lg p-4 md:p-6  w-full md:w-auto ${color} hover:shadow-lg transition duration-300 transform hover:scale-105`}>
       <div className="flex items-center mb-4">

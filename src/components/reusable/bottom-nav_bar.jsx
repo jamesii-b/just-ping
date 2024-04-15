@@ -7,7 +7,7 @@ function BottomNavBar() {
     <div className="bg-sub_color md:pb-20 md:pt-10 min-h-max h-auto w-full overflow-hidden z-50 bg-black text-white grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 px-4 md:px-10 py-6 ">
       <div className="flex flex-col items-center md:items-start mb-8 md:mb-0">
         <div className="font-bold text-xl md:text-2xl mb-2 md:mb-4">
-          <Link to="/">
+          <Link to="/just-ping/">
             Ping Communications
           </Link>
         </div>

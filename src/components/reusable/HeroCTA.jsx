@@ -13,8 +13,6 @@ function HeroCta() {
           transition: { duration: 2, ease: 'easeInOut' }
         });
       }
-      console.log('in view');
-      console.log(inView);
     }, [inView]);
     return (
       <div ref={refer}>
